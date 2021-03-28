@@ -15,22 +15,21 @@ hello {{user}}
    
 </ul> -->
 
-<div class="container">
-<div class="row">
-   
-</div>
-
 <app-navi></app-navi>
+<div class="container">
+   <div class="row"> 
+      <div class="col-md-3">
+        <app-category></app-category>
+      </div>
 
+      <div class="col-md-9">
+         <router-outlet></router-outlet>
+         
+      </div>
 
-<app-category></app-category>
-
-<app-product></app-product>
-
-
+   </div>
 </div>   
 
 
 
 
-<router-outlet></router-outlet>
